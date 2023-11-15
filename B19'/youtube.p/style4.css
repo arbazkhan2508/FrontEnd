@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+#part1{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+}
+#main #part1 #nav{
+    padding: 0 5vw;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    height: 5vw;
+    background-color: #f7f7f7;
+    border-top:5px solid #006431 ;
+}
+#main #part1 #nav #l{
+    /* display: flex;
+    align-items: center; */
+    height: 100%;
+} 
+#main #part1 #nav #l>img{
+    height: 80%;
+}
+/* #main #nav #r{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+} */
+#main #part1 #nav #r>i{
+    color:#006431;
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    /* margin-bottom: .5vw; */
+    text-transform: uppercase;
+    font-family:"gilroy";
+}
+#main #part1 #nav #r>a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: gilroy;
+}
+#part1 #nav2{
+    padding: 0 6.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 3vw;
+    background-color: #f7f7f7;
+    
+}
+#part1 #nav2>a{
+    padding: 1vw;
+    /* text-align: center; */
+    height: 3vw;
+    text-decoration: none;
+    color: #d6d1ca;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    font-family: gilroy;
+    color: #000;
+}
+#part1 #nav2>a:hover{
+     cursor: pointer;
+     background-color: #000;
+     color: #fff;
+}
+#part1 #p1s2{
+    width: 100%;
+    height: 82.8%;
+    background-color: #bcd6d3;
+}
+#part1 #p1s2>img{
+    color: #016141;
+}
+#part1 #p1s2 #a{
+    position: absolute;
+    top: 18%;
+    left: 14%;
+     height: 6vw;
+    width: 10vw; 
+}
+#part1 #p1s2 #b{
+    position: absolute;
+     bottom: 0;
+     left: 25%;
+    /* height: 5vw;
+    width: 20vw; */
+}
+#part1 #p1s2 #c{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(0%,-50%);
+}
+#part1 #p1s2 #text{
+    padding: 1vw;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    border-top: 2px solid #006142;
+    border-bottom: 2px solid #006142;
+}
+#part1 #p1s2 #text>h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #006142;
+}
+#p1s2>h3{
+    position: absolute;
+    bottom: 2%;
+    left: 15%;
+    color:#006142;
+    text-transform: capitalize;
+
+}
+#part2{
+    width: 100%;
+    height: 180vh;
+    background-color: #012d1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#part2 #card1{
+    width: 40%;
+    height: 40%;
+}
+#part2 #card1>h1{
+      text-transform: uppercase;
+      letter-spacing: .5vw;
+      text-align: center;
+      font-size: 2vw;
+      font-family: gilroy;
+      color: #fff;
+      margin-right: 2vw;
+}
+#part2 #card1  #img{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+}
+#part2 #card1 #img  #i1{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+}
+#part2 #card1 #img #i1 #i1e1{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    /* background-color: green; */
+}
+#part2 #card1 #img #i1 #i1e1>img{
+    height: 100%;   
+    position: absolute;
+    top: 2%;
+}
+#part2 #card1 #img  #i1 #i1e2{
+    padding: 1vw 0;
+    width: 100%;
+    height: 20%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+}
+#part2 #card1 #img #i1 #i1e2>h3{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1vw;
+    margin-left: 1vw;
+    font-family: gilroy;
+}
+#part2 #card1 #img  #i2{
+    width: 50%;
+    height: 100%;
+    /* background-color:yellow; */
+}
+#part2 #card1 #img #i2 #i2e1{
+     position: relative;
+    width: 100%;
+    height: 80%;
+    /* background-color: grey; */
+}
+#part2 #card1 #img #i2 #i2e1>img{
+     position: absolute;
+    top: 53%;
+    left: 20%;
+    transform: translate(-50%,-50%); 
+}
+#part2 #card1 #img  #i2 #i2e2{
+    padding: 1vw 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+}
+#part2 #card1 #i2 #i2e2>h3{
+    text-transform: capitalize;
+    font-family: gilroy;
+    font-size: 1vw;
+    text-align: center;
+    margin-right: 12vw;
+    color: #fff;
+}
+#part2 #p1{
+    color: #fff;
+    font-size: .8vw;
+    font-family: gilroy;
+    text-align: center;
+    margin-right: 5vw;
+    margin-top: vw;
+    margin-bottom: 3vw; 
+}#part2 #card2{
+    width: 40%;
+    height: 40%;
+}
+#part2 #card2>h1{
+      text-transform: uppercase;
+      letter-spacing: .5vw;
+      text-align: center;
+      font-size: 2vw;
+      font-family: gilroy;
+      color: #fff;
+      margin: 1vw;
+      margin-right: 3vw;
+}
+#part2 #card2  #img{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+}
+#part2 #card2 #img  #i1{
+    width: 50%;
+    height: 100%;
+}
+#part2 #card2 #img #i1 #i1e1{
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+#part2 #card2 #img #i1 #i1e1>img{
+    height: 100%;   
+    position: absolute;
+    top: 2%;
+}
+#part2 #card2 #img  #i1 #i1e2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+}
+#part2 #card2 #img #i1 #i1e2>h3{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1vw;
+    margin-left: 3vw;
+    font-family: gilroy;
+}
+#part2 #card2 #img  #i2{
+    width: 50%;
+    height: 100%;
+}
+#part2 #card2 #img #i2 #i2e1{
+     position: relative;
+    width: 100%;
+    height: 80%;
+}
+#part2 #card2 #img #i2 #i2e1>img{
+    position: absolute;
+    height: 100%;
+    top: 53%;
+    left: 20%;
+    transform: translate(-50%,-50%); 
+}
+#part2 #card2 #img  #i2 #i2e2{
+    padding: 1vw 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+#part2 #card2 #i2 #i2e2>h3{
+    text-transform: capitalize;
+    font-family: gilroy;
+    font-size: 1vw;
+    text-align: center;
+    margin-right:12vw;
+    color: #fff;
+}
+#part2 #p2{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: .8vw;
+    font-family: gilroy;
+     text-align: center; 
+     margin-right: 5vw;
+}
+#part3{
+    position: relative; 
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+}
+#part3 #p3s1{
+    width: 100%;
+    height: 70%;
+    background-color: #ecc0a6;
+}
+#part3 #p3s2{
+    width: 100%;
+    height: 30%;
+    background-color: #b9e4f4;
+}
+#part3 #overlay{
+     position: absolute; 
+     top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+#part3 #overlay #head{
+    margin-top: 1vw;
+     width: 45vw;
+    height: 7vw; 
+    border-top: 2px solid #9c7758;
+    border-bottom: 5px solid #000;
+    border-bottom: 2px solid #9c7758;
+}
+#part3 #overlay #head>h1{
+    font-size: 5vw;
+    text-transform: capitalize;
+    font-family: gilroy;
+    color: #9c7758;
+}
+#part4{
+    width: 100%;
+    height: 100vh;
+    background-color: rebeccapurple;
+}

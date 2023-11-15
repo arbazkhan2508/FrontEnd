@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+    height: 100%;
+    background-color:#dadada;
+}
+ /* #div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+button{
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+    position: absolute;
+    left: 20%;
+} */
+
+/* h1{
+    font-size: 5vw;
+    /* color: red;
+    background-color: yellow; 
+} 
+#div{
+    width: 20%;
+    height: 40%;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+button{
+    position: absolute;
+    left: 30%;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+} */    
+/* #card{
+     padding: .5vw 0;
+     display:flex ;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;  
+    width: 20%;
+    height: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    margin-top: 80px;
+    border-radius: 1vw;
+}
+#card #photu{
+     
+    width: 7vw;
+    height: 7vw;
+    background-color:#fff;
+    border-radius: 50%;
+    background-image: url(https://images.unsplash.com/photo-1662867991504-44e03c104ac8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    border:  2px solid #000;
+}
+#card>h1{
+    text-transform: uppercase;
+    font-size: 2vw;
+    text-align: center;
+    font-family: gilroy;
+}
+#card>h2{
+    text-transform: uppercase;
+    font-size: 2vw;
+    text-align: center;
+    font-family: gilroy;
+    color: red;
+}
+#card>p{
+    text-align: center;
+    font-size: 1vw;
+    font-family: gilroy;
+}
+#hide{
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    border: 2px solid #000;
+    font-size: 1vw;
+    margin: 2vw;
+    text-transform: capitalize;
+}
+#card button{
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    border: 2px solid #000;
+    font-size: 1vw;
+    text-transform: capitalize;
+    
+} */
+#modal{
+    opacity: 0;
+    pointer-events: none;
+    padding: .5vw 0;
+     /* display:flex ;
+    flex-direction: column;
+    align-items:center; */
+    /* justify-content: space-between;   */
+    width: 30%;
+    height: 30%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    margin-top: 80px;
+    border-radius: 1vw;
+}
+#modal h1{
+    font-size: 3vw;
+    text-align: center;
+    font-family: gilroy;
+}
+#modal>p{
+    font-size: 1vw;
+    text-align: center;
+    font-family: gilroy;
+}
+#show{
+    width: 150px;
+    height: 30px;
+    background-color:red;
+    border: 2px solid #000;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+#hide{
+    width: 150px;
+    height: 30px;
+    background-color:red;
+    border: 2px solid #000;
+    font-size: 1vw;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}

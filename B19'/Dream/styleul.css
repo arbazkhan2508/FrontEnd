@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+      width: 100%;
+      height: 100%;
+}
+ #main{
+        width: 100%;
+        height: 100%;
+        background-image: url(https://static.toiimg.com/photo/57286385.cms);
+        background-size: cover;
+ }
+ #card{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    top: 39%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    background-color:red;
+    overflow: hidden;
+ }
+ img{
+      width: 100%;
+      height: 100%;
+ }
+ img:hover{
+     width: 125%;
+     height: 125%;
+ }
+ h1{
+      font-size: 70px;
+      position: absolute;
+      top: 5%;
+      left: 3%;
+      font-family: "Gilroy";
+      text-transform: uppercase;
+      font-weight: 200;
+ }
+ p{
+    width: 30%;
+    
+    font-size: 40px;
+      position: absolute;
+      top: 20%;
+      left: 3%;
+      font-family: "Gilroy";
+      text-transform: uppercase;
+      font-weight: 400;   
+ }

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 3vw;
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+}
+#nav a{
+    text-decoration:none;
+    font-size: 1.3vw;
+    color: #000;
+    text-transform: capitalize;
+    margin-left: 1.5vw;
+}
+#nav i{
+    font-size: 1.3vw;
+    margin-left: 1.5vw;
+}
+#nav #l{
+    height: 100%;
+
+}
+#ni{
+    height: 100%;
+}
+#nav2{
+    position: absolute;
+    right: 2%;
+    top: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* rotate: 90deg; */
+    width: fit-content;
+    /* background-color: red; */
+    height: fit-content;
+}
+#nav2>i{
+    font-size: 1.3vw;
+    margin-bottom: 1vw;
+
+}
+#navr{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    width: fit-content;
+    /* background-color: red; */
+    height: fit-content;
+}
+.line{
+    width: .3vw;
+    height: 13vh;
+    border-radius: 1vw;
+    background-color: grey;
+    margin-top: .5vw;
+}
+#a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+#b{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+#c{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+#d{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    height: 50vw;
+    
+}
+#center{
+    position: relative;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(0,-50%);
+    width:70%;
+    height: 80%;
+    /* background-color: red; */
+    /* border-radius: 2vw; */
+}
+.section{
+    overflow: hidden;
+    position: relative;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    /* background-color: yellow; */
+    /* border-radius: 2vw; */
+}
+.secton>img{
+    /* width: 100%; */
+
+    height: 100%;
+    /* border-radius: 2vw; */
+}
+#center #text{
+    overflow: hidden;
+    position: absolute;
+    top: 20%;
+    z-index: 999;
+    left: -10%;
+    /* background-color: yellow; */
+    width: 600px;
+    height: 100px;
+}
+#text>h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+    font-family: gilroy;
+    position: absolute;
+    top: 150px;
+    color: transparent;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #000;
+}

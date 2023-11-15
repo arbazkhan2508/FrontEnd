@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    color: white;
+}
+html,body{
+         width: 100%;
+         height: 100%;
+}
+#nav{
+      width: 100%;
+      height: 60px;
+      background-color: rgba(0, 0, 0, 0.826);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 170px;
+}
+#main{
+    width: 100%;
+    height: 94%;
+     background-image: url(https://images.hindustantimes.com/tech/img/2021/03/01/960x540/Apple_announce-iphone12pro_10132020.jpg.landing-big_2x_1614573222041_1614573230431.jpg);
+     background-size: cover;
+    }
+#l>i{
+    color: white;
+}
+#nav>l{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+#r>i{
+    color: white;
+    margin-left:20px;
+}
+a:hover{
+       border-bottom: 2px solid white;
+}

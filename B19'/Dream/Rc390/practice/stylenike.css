@@ -1,0 +1,102 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html,body{
+    width: 100%;
+    height: 100%;
+ }
+ #main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color:#015147;
+    border-radius: 1vw;
+ }
+ #center{
+   display: flex;
+   width:90%;
+   height:90%;
+  
+ }
+ #div1{
+   width:60%;
+   height:100%;
+   background-color:#b5c0bc;
+ }
+
+ #div2{
+   width:40%;
+   height:100%;
+   /* background-image: url(https://media.istockphoto.com/photos/coffee-beans-pattern-with-gold-coffee-bean-at-black-background-picture-id1060977160?k=20&m=1060977160&s=612x612&w=0&h=PkHtRjM26W5K0-W3VO7g6hVM2wQizH9s6AtnLprzCxw=); */
+   background-color:#013a35;
+   background-image: url("eimages.jpg");
+   background-size: cover;
+   background-position: right;
+ }
+#overlay{
+   position: absolute;
+   width: 90%;
+   height: 90%;
+   background-color: transparent;
+}
+ #nav{
+   padding: 2vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height:4vw;
+ }
+ #l{
+   font-size: 1vw;
+   text-transform: uppercase;
+   font-weight: 900;
+   color: #586f69;
+ }
+ #c>a{
+   text-decoration: none;
+   color: #586f69;
+   margin-left:1vw;
+   text-transform: uppercase;
+   font-size: 1vw;
+   font-weight: 900;
+ }
+ #r>i{
+   font-size: 1vw;
+   color: #586f69;
+   font-weight: 900;
+ }
+ #text{
+       margin-top: 5vw;
+       margin-left: 2vw;
+ }
+ #text>h1{
+   font-size: 6vw;
+   line-height: 4.5vw;
+   text-transform: uppercase;
+   color: #073c34;
+ }
+ span{
+   font-size: 1vw;
+   color: #fff;
+   font-weight: 900;
+ }
+ #text>p{
+   margin-top: 1vw;
+   margin-bottom: 2.5vw;
+   width: 37%;
+   color: #073c34;
+   font-size: 1vw;
+ }
+ button{
+   width:8vw;
+   height: 2.5vw;
+   text-transform: uppercase;
+   color: #fff ;
+   background-color:#043c31;
+   border-radius: 2vw;
+ }

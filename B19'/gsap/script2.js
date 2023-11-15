@@ -1,0 +1,67 @@
+gsap.from("#c",{
+    scale:0,
+    rotate:-360,
+    duration:2,
+    x:20,
+    stagger:4,
+    pin:true,
+    repeat:1,
+    pin:true,
+    yoyo:true
+})
+gsap.from("#b",{
+    scale:0,
+    delay:4,
+    rotate:-360,
+    duration:2,
+    x:20,
+    stagger:2,
+    pin:true,
+    repeat:1,
+    pin:true,
+    yoyo:true
+})
+gsap.from("#a",{
+    scale:0,
+    rotate:-360,
+    duration:2,
+    delay:8,
+    x:20,
+    stagger:2,
+    pin:true,
+    repeat:1,
+    pin:true,
+    yoyo:true
+})
+gsap.from("#d",{
+    scale:0,
+    rotate:-360,
+    duration:2,
+    delay:10,
+    x:20,
+    stagger:2,
+    pin:true,
+    repeat:1,
+    pin:true,
+    yoyo:true
+})
+gsap.to(".section",{
+    delay:14,
+    width:"100%",
+    ease:Expo.easeInout,
+    duration:2,
+    stagger:2
+})
+gsap.to("#text h1",{
+    top:"-17%",
+    delay:14,
+    duration:2,
+    ease:Expo.easeInout,
+    stagger:2,
+})
+gsap.to("#text h1",{
+    delay:16,
+    ease:Expo.easeInout,
+    stagger:2,
+    top:"-150%"
+})

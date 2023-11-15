@@ -1,0 +1,39 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: gilroy;
+   font-size: 20px;
+   text-decoration: none;
+ }
+ html,body{
+   width: 100%;
+   height: 100%;
+ }
+  #nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+  }
+
+  #input{
+    border-radius: 20px;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width:400px;
+
+  }
+  #a{
+    background-color: #eaaf63;
+    height: 26px;
+  }
+  #A{
+     
+     background-color:#f3f3f3;
+     color: #000;
+     font-size: 18px;
+  }

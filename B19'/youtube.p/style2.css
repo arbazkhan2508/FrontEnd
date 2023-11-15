@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    
+    background-color: #ab8e98;
+}
+#card{
+    width: 70%;
+    height: 100%;
+    position:absolute; 
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+#card1{
+    width: 100%;
+    height: 100%;
+    background-color:yellow;
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+    position: absolute; 
+    animation:  move 8s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite normal forwards;
+}
+ @keyframes  move {
+    0%{
+        position: absolute;
+        right: 100%;
+    }
+    50%{
+        right: 0%;
+    }
+    75%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    } 
+    
+} 
+#main #overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+#main #overlay #nav{
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vw;
+    position: absolute;
+    top: 5%;
+    left: 5%;  
+    animation:  move4 5s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite normal both; 
+}
+#main #overlay #nav>img{
+    height: 3vw;
+}
+#main #overlay #nav>h5{
+    font-size: 1.5vw;
+    color: #fff;
+   font-family: gilroy;
+}
+@keyframes  move4 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }99%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#main #overlay #part1{
+    position: absolute  ;
+    top: 25%;
+    right: 12%;
+    width: 20%;
+    height: 60%;
+    overflow: hidden; 
+    background-color: transparent;
+}
+#main #part1 #p1e1{
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      background-image: url(https://images.unsplash.com/photo-1523260578934-e9318da58c8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fG1vZGVsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+      background-size: cover;
+      position: absolute;
+      animation:  move1 8s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite normal forwards;
+} 
+@keyframes  move1 {
+    0%{
+        position: absolute;
+        right: 100%;
+    }
+    50%{
+        right: 0%;
+    }
+    75%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    } 
+    
+} 
+#text{
+    font-size: 4vw;
+    text-transform: uppercase;
+    line-height: 6vw;
+    font-family:gilroy;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    transform: translate(0,-50%);
+    animation:  move2 8s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite normal forwards;
+}
+ @keyframes  move2 {
+     0%{
+        left: 0%;
+        opacity: 0;
+     }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        left:5%;
+        opacity: 0;
+    }
+}
+#verticle{
+    position: absolute;
+     top: 35%; 
+     right:-7%;
+}
+#verticle>h1{
+     text-transform: uppercase;
+     font-size: 1.5vw;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: #fff;
+     font-family: gilroy;
+     color: transparent;
+     letter-spacing: 10px;
+     z-index: 99;
+     font-size: 70px;
+     transform: rotate(90deg);
+     animation:  move3 8s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite normal forwards;
+ }  
+ @keyframes  move3{
+    0%{
+        top: 0%;
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0.5;
+    }
+    70%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        top: 100%;
+        opacity: 0;
+    }
+ } 

@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+     height: 100%;
+     width: 100%;
+     background-color:#252a30;
+}
+#nav{
+    padding: 0 2vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4vw;
+}
+#nav a{
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    margin-left: 1.5vw;
+    font-size: 1.5vw;
+}
+#nav a:hover{
+    text-decoration: underline; 
+}
+#nav h1{
+    text-transform: uppercase;
+    line-height: 1.5vw;
+    font-size: 2vw;
+    color: #fff;
+}
+#nav h1:hover{
+    text-decoration: underline;
+}
+#c1{
+    display: flex;
+    width: 100%;
+    height: 30vw;
+}
+#c1e1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+}
+#c1e3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 35vw;
+    margin-top: 3.5vw;
+}
+#a{
+   text-transform: uppercase;
+   font-size: 3vw; 
+   color: #fff; 
+}
+#b{
+    margin-top: 1vw;
+    color: #fff;
+    
+}
+#c{
+    margin-top: 1vw;
+    color: #fff;
+}
+#d{
+    margin-top: 1vw;
+    color: #fff;
+}
+#p1{
+    padding-left: 2vw;
+    margin-top: 15vw;
+    margin-bottom:2vw ;
+    color: grey;
+}
+#p4{
+    margin-bottom: 4vw;
+    color: grey;
+}
+#c1e3 p{
+    font-size: 1vw;
+    margin-top:1vw;
+    color: grey;
+}
+
+#c1e2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50vw;
+    height: 10vw;
+}
+#c2e1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 35vw;
+    background-color: #1e1e1e;
+    margin-top: 3vw;
+    margin-right: 5;
+}
+#c2e1 h1{
+    font-size: 3vw;
+    text-transform: uppercase;
+    letter-spacing: .2vw;
+    color: white;
+    margin-bottom: 3vw;
+}
+input{
+    width: 25vw;
+    height: 2vw;
+    font-size: 1vw;
+    background-color: transparent;
+    color: grey;
+}
+button{
+    width: 12vw;
+    height: 2.5vw;
+    font-size: 1vw;
+    letter-spacing: .1vw;
+    text-transform: uppercase;
+    background-color: transparent;
+    margin-top: 3vw;
+    margin-left: 1vw;
+    color: #fff;
+    font-weight: 100;
+    border-color: white;
+}
+button:hover{
+    background-color: grey;
+}
+#nav2{
+    padding: 2vw;
+    display: flex;
+    justify-content: space-between  ;
+    width: 100%;
+    height: 10vw;
+}
+#l{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+#l>i{
+        font-size: 1.5vw;
+        color: grey;
+}
+#r>h1{
+        color:grey;
+        line-height: 1.4vw;
+        font-size: 1.5vw;
+}

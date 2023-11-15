@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: gilroy;
+}
+html,body{
+        width: 100%;
+        height: 100%;
+}
+#main{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      width:100%;
+      height: 100%;
+      background-color: rgba(128, 128, 128, 0.512);
+}
+#center{
+       width: 80%;
+       height: 90%;
+       background-color:#fff;
+}
+#nav{
+       padding: 0 40px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       width: 100%;
+       height: 4vw; 
+}
+#nav i{
+       color: black;
+       font-size: 1.5vw;
+}
+#nav a{
+       color: black;
+       text-decoration: none;
+       font-size: 1vw;
+       font-weight: 900;
+}
+#nav a:hover{
+       text-decoration: underline;
+}
+#nav h1:hover{
+        text-decoration: underline;
+        cursor: pointer;
+}
+#part1{
+       display: flex;
+       justify-content:center;
+       align-items: center;
+       width: 100%;
+       height: 90%;
+       overflow: hidden;
+}
+#card{
+       width: 40vw;
+       height: 25vw;
+       background-color: pink;
+       margin-left: 20vw;
+       overflow: hidden;
+ }
+ img{
+       image-resolution: top;
+       width: 100%;
+       height: 100%;
+       transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+ }
+ img:hover{
+           width: 42vw;
+           height: 27vw;
+           cursor: pointer;
+ }
+ #text{
+       position: absolute;
+       top: 18vw;
+       left: 29.5vw;
+ }
+ #text>h1{
+       font-size: 3vw;  
+       font-weight: 900;  
+       line-height: 1.5vw;
+ }
+ #text>p{
+       margin-top:2vw;
+       width: 10vw;
+       font-weight: 700;
+ }
+ span{
+     font-weight: 400; 
+     font-size: 1vw; 
+     margin-left:8vw;
+ }
+ button{
+       margin-top: 1.5vw;
+     width: 8vw;
+     height: 2vw;
+     background-color: transparent;
+ }
+ button:hover{
+        background-color: rgba(128, 128, 128, 0.159);
+ }
+  
+#nav2{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       position: absolute;
+       bottom: 0;
+       padding: 0 40px;
+       display: flex;
+       width: 90%;
+       height: 4vw;
+       margin-bottom: 2.5vw;
+}
+#r{
+       margin-right: 10vw;
+}
+#r i{
+       margin: 10px;
+       font-size:1.5vw;
+}
+#r i:hover{
+       font-size: 2vw;
+       text-decoration: underline;
+       cursor: pointer;
+}
+#nav2 h1:hover{
+       text-decoration: underline;
+       cursor: pointer;
+}
+   
+ 

@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #c4cecd;
+    border-radius: 2vw;
+}
+ #overlay{
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#overlay #nav{
+    width: 100%;
+    height: 3vw;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+}
+#overlay #nav #l>h1{
+    text-transform: uppercase;
+    font-family: gilroy;
+}
+#overlay #nav #c{
+    margin-right: 30vw;
+}
+#overlay #nav #c>a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: gilroy;
+    margin-left: 2vw;
+    font-size: 1.2vw;
+}
+#overlay #nav #r>i{
+    text-transform: uppercase;
+    font-family: gilroy;
+    font-size: 1.5vw;
+    margin-left: 2.5vw;
+}
+#overlay #text{
+    width: 50%;
+    height: 50%;
+     position: absolute;
+    top: 45%;
+    left: 1%; 
+    /* background-color: red; */
+}
+#overlay #text>h1{
+    font-size: 10vw;
+    text-transform: uppercase;
+    letter-spacing: 2vw;
+}
+#overlay span{
+    color: #fff;
+}
+#overlay #text>p{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: gilroy;
+    margin-left: 10vw;
+    margin-bottom: 1vw;
+}
+#overlay #text #a{
+    width: 8vw;
+    height: 2vw;
+    border-radius: 1vw;
+    font-size: .8vw;
+    border: none;
+    text-transform: uppercase;
+    margin-left: 10vw;
+}
+#overlay #text #b{
+    width: 8vw;
+    height: 2vw;
+    border-radius: 1vw;
+    font-size: .8vw;
+    border: none;
+    text-transform: uppercase;
+    background-color: #a37e31;
+    margin-left: 1vw;
+}
+#overlay #A{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 8vw;
+    font-family: gilroy;
+    color: rgba(25, 24, 24, 0.116);
+}
+#overlay #B{
+    position: absolute;
+    top: 31%;
+    left: 10%;
+    font-size: 2vw;
+    font-family: gilroy;
+    color:#000;
+}
+#overlay #dis{
+    position: relative;
+    position: absolute;
+    top: 17%;
+    right: 5%;
+    width: 20%;
+    height: 40%;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 40px solid rgba(0, 0, 0, 0.262);
+}
+#overlay #dis>h1{
+    position: absolute;
+    top: 35%;
+    left:22%;
+    font-size: 4vw;
+    text-transform: uppercase;
+    line-height: 1.5vw    ;
+}
+
+#overlay #dis span{
+    font-size: 1.2vw;
+    color: grey;
+}
+#overlay #bottom{
+    position: absolute;
+    bottom: 3%;
+    right: 1%;
+    padding: 0 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10vw;
+    height: 2vw;
+}
+#overlay #bottom>i{
+    font-size: 1.5vw;
+    color: #fff;
+}
+#overlay #i1{
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    height: 2vw;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#overlay #i1>i{
+    color: #000;
+    font-size: 1.2vw;
+}
+#overlay #i2{
+    position: absolute;
+    top: 25%;
+    left: 27.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    height: 2vw;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#overlay #i2>i{
+    color: #000;
+    font-size: 1.2vw;
+}
+
+#part1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 90%;
+    background-color: yellow;
+    background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-image: url(https://images.unsplash.com/photo-1534008757030-27299c4371b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#part2{
+    position: absolute;
+    right: -10%;
+    top: -15%;
+    width: 30%;
+    height: 60%;
+    background-color: #f4d35db4;
+    border-radius: 50%;
+}
+#part3{
+    position: absolute;
+    left: -20%;
+    bottom: -15%;
+    width: 55%;
+    height: 112%;
+    background-color: #f4d35db4;
+    border-radius: 50%;
+    /* filter: blur(.1);      */
+}

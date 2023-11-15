@@ -1,0 +1,714 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "voyage";
+    cursor:pointer;
+}
+html,body{
+    width: 100%;
+    height:100% ;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+#part1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(218, 165, 32, 0.735);
+    overflow: hidden;
+}
+#nav{
+    padding: 1vw 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    width: 100%;
+    height: 80px;
+}
+#nav a{
+    text-decoration: none;
+    margin-left: 1.5vw;
+    color: black;
+    font-size: 1.2vw;
+    font-weight: 700;
+    font-family:"gilroy";
+     
+}
+#nav a:hover{
+    text-decoration: underline;
+}
+#nav h1{
+    font-size: 3vw;
+    font-family:"gilroy";
+}
+#nav h3{
+    font-size: 1.5vw;
+    font-family:"gilroy";
+}
+
+#nav2{
+    padding: 2vw 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    width: 100%;
+    height: 80px;
+}
+#nav2>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family:"gilroy";
+}
+#nav2>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#img{
+    width: 60vh;
+    height: 60vh;
+    background-color:grey;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     border-radius: 50%; 
+     background-image: url(https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80);
+     background-size: cover;
+     background-position: center;
+     animation-name: asad;
+     animation-duration: 1s;
+     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+     animation-fill-mode: both;
+     animation-direction: alternate;
+     animation-iteration-count: 1;
+     animation-delay: 1s;
+}
+@keyframes  asad {
+    from{
+        left: 100%;
+        opacity: 0;
+    }
+    to{
+        left: 50%;
+    }
+} 
+#part1>h1{
+    font-size: 8vw;
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-30deg);
+    color:black;
+    font-family:Mars Attacks;
+    font-weight: 100;
+    font-size: 20vw;
+    animation-name: arbaz;
+    animation-duration: 1s;
+    animation-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+@keyframes  arbaz{
+    from{
+        top: 100%;
+        opacity: 0;
+    }
+    to{
+        top: 50%;
+    }
+} 
+#bottom{
+     width: 100%;
+     height: 60px;
+     display: flex;
+     justify-content: space-between;
+     align-content: center;
+     position: absolute;
+     bottom: 3%;
+     padding: 0 10vw;
+     font-family: "gilroy";
+}
+#bottom h1{
+    font-family: gilroy;
+}
+#part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-color: rgba(218, 165, 32, 0.735);
+}
+#center{
+    display:flex;
+    align-items: center;
+     justify-content: space-between;
+    width: 90%;
+    height: 90%;
+}
+#c{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90%;
+    height: 90%;
+}
+#p1s1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width:25%;
+    height: 100%;
+    animation-name:move1;
+     animation-duration: 2s;
+     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+     animation-fill-mode: both;
+     animation-direction: alternate;
+     animation-iteration-count: 1;
+     animation-delay: 2s;  
+}
+#p1s1e1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 49%;
+    background-color:violet;
+     background-image: url(https://images.unsplash.com/photo-1532931899774-fbd4de0008fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+}
+#p1s1e1 #f1{
+    width: 97%;
+    height: 97%;
+    border: 2PX solid rgba(255, 255, 255, 0.369);
+     
+}
+#p1s1e1 #f1>h1{
+     font-family:"voyage";
+     padding: 2vw;
+     font-size: 2.5vw;
+     
+}
+#p1s1e2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 49%;
+    background-color: rgba(0, 0, 255, 0.415);
+    background-size: cover;
+    background-position: center;
+}
+#p1s1e2 #line1{
+    padding: 5px,0;
+    width: 1px;
+    height: 150px;
+    background-color: black;
+    border: 1px solid black;
+}
+#p1s1e2 h1{
+     margin-bottom: 15px;
+     margin-top: 5px;
+     font-family: voyage;
+}
+#p1s1e2 p{
+     opacity: .3;
+     font-weight: 700;
+     font-family: "voyage";
+}
+#p2s2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    height:100%;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    animation-name:move1;
+     animation-duration: 2s;
+     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+     animation-fill-mode: both;
+     animation-direction: alternate;
+     animation-iteration-count: 1;
+     animation-delay: 2s; 
+}
+#p2s2 #f2{
+    width: 97%;
+    height: 97%;
+    border: 2px solid rgba(255, 255, 255, 0.369);
+}
+#p2s2 #f2 #f2e1{
+    margin: 2vw;
+       width: 250px;
+       height: 100px;
+       background-color:rgba(0, 0, 0, 0.514);
+       border-top-left-radius: 100px;
+       border-bottom-right-radius: 100px;
+       box-shadow: x y blur spread color;
+}
+#p2s2 #f2 #f2e1>h1{
+    padding: 15px 40px;
+    font-family: voyage;
+    font-size: 2.5vw;
+    color: #fff;
+}
+#p3s3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24%;
+    height: 100%;
+    background-color:grey;
+    background-image: url(https://images.unsplash.com/photo-1621252792374-2b79e3fcf295?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1854&q=80);
+     background-size: cover;
+    background-position: center;
+    animation-name:move1;
+     animation-duration: 2s;
+     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+     animation-fill-mode: both;
+     animation-direction: alternate;
+     animation-iteration-count: 1;
+     animation-delay: 2s; 
+}
+#p3s3 #f3{
+    width: 97%;
+    height: 97%;
+    border: 2px solid rgba(255, 255, 255, 0.369);
+   
+}
+#p3s3 #f3>h1{
+    font-family:"voyage";
+    padding: 2vw;
+    font-size: 2.5vw;
+    
+}
+@keyframes  move1 {
+    from{
+        top: 0%;
+        opacity: 0;
+    }
+    to{
+        top: 100%;
+    }
+} 
+#part3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(218, 165, 32, 0.735);
+}
+#part3 #p3e1{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    animation-name:move1;
+     animation-duration: 3s;
+     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+     animation-fill-mode: both;
+     animation-direction: alternate;
+     animation-iteration-count: 1;
+     animation-delay: 3s; 
+}
+#part3 #p3e1 h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "voyage";
+}
+#part3 #p3e1>button{ 
+     font-size: 25px;
+     border: none;
+     background-color: transparent;
+     border-bottom: 2px solid black;
+     margin-top: 2vw;
+     margin-left: 6vw;
+     padding: 8px;
+     opacity: .5;
+     font-weight: 500;
+     font-family: "voyage";
+}
+#part3 #p3e1 button:hover{
+    opacity: 1;
+    cursor: pointer;
+    font-weight: 500;
+}
+#part3 #img1>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation-name:move1;
+     animation-duration: 3s;
+     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+     animation-fill-mode: both;
+     animation-direction: alternate;
+     animation-iteration-count: 1;
+     animation-delay: 3s; 
+}
+#part3 #p3e2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right:15%;
+    transform: translate(-50%,-50%);
+    animation-name:move1;
+     animation-duration: 3s;
+     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+     animation-fill-mode: both;
+     animation-direction: alternate;
+     animation-iteration-count: 1;
+     animation-delay: 3s; 
+}
+#part3 #p3e2 h1{
+     text-align: center;
+     font-family: voyage;
+}
+#part3 #p3e2 p{
+    text-align: center;
+    font-family: voyage;
+    font-weight: 900;
+    opacity: .5;
+}
+#part3 #p3e2 #line2{
+       width: 2px;
+       height: 200px;
+       background-color: blue;
+       margin: .5vw;
+}
+#part3 #p3e2 #p3e3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    rotate: 45deg;
+    margin-top: .8vw;
+    animation-name:move1;
+     animation-duration: 2s;
+     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+     animation-fill-mode: both;
+     animation-direction: alternate;
+     animation-iteration-count: 1;
+     animation-delay: 2s; 
+}
+#part3 #p3e2 #p3e3>i{
+    rotate: -45deg;
+    font-size: 1.3vw;
+    color: white;
+}
+@keyframes  move1 {
+    from{
+        top: 60%;
+        opacity: 0;
+    }
+    to{
+        top: 50%;
+    }
+} 
+#part4{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh; 
+    background-color: rgba(218, 165, 32, 0.735);
+    font-family: voyage;
+     
+}
+#part4 #card1{
+    width: 25%;
+    height: 80%;
+    margin-left: 10vw;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+#part4 #c1e1{
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym9va3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+     
+}
+#part4 #c1e2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5vw;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+#part4 #card1 #c1e2>p{
+          margin-top:.5vw;
+          text-align:center;
+          font-weight: 100;
+}
+#part4 #card1 #c1e2>h1{
+    text-align:center;
+    font-weight: 900;
+}
+#part4 #card1 #c1e2 button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    padding: 5px;
+}
+#part4 #card2{
+    width: 25%;
+    height: 80%;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+#part4 #card2 #c2e1{
+    width: 100%;
+    height: 70%;
+    background-color: blue;
+    background-image: url(https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Ym9va3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+#part4 #c2e2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5vw;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+#part4 #card2 #c2e2>p{
+          margin-top:.5vw;
+          text-align:center;
+          font-weight: 100; 
+}
+#part4 #card2 #c2e2>h1{
+    text-align:center;
+    font-weight: 900;
+   
+}
+#part4 #card2 #c2e2 button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    padding: 5px;
+} 
+
+#part4 #card3{
+    width: 25%;
+    height: 80%;
+    margin-right:10vw;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+#part4 #card3 #c3e1 {
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+    background-position: center;
+    
+}
+#part4 #card3 #c3e2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+#part4 #card3 #c3e2>p{
+    margin-top:.5vw;
+    text-align:center;
+    font-weight: 100;
+}
+#part4 #card3 #c3e2>h1{
+    text-align:center;
+    font-weight: 900;
+}
+#part4 #card3 #c3e2 button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    padding: 5px;
+}
+#part4 button:hover{
+  font-weight: 900;
+  cursor: pointer;
+}
+@keyframes  move{
+    0%{
+          margin-top: 40px;
+          opacity: 0;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+#part5{
+    padding: 0 8vw;
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 20vw;
+    background-color: rgba(218, 165, 32, 0.735);
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#part5 #s1 h1{
+    font-size: 30px;
+    font-family:"gilroy";
+    color: black;
+    margin-bottom: 1vw;
+}
+#part5 #p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation-name: move3;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 6s;
+}
+#part5  #p2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between; 
+    animation-name: move3;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 6s;
+}
+#part5 #p3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation-name: move3;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 6s;
+    
+}
+#part5 #p4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation-name: move3;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 6s;
+}
+#part5 #p5{
+    display: flex;
+    flex-direction: column;
+    animation-name: move3;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 6s;
+}
+
+#part5 a{
+    text-align:start;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: gilroy;
+    margin-top: .5vw;
+}
+#part5 #p5>h3{
+    font-family: gilroy;
+    font-size: 30px;
+}
+#part5 #p5>p{
+    font-family: gilroy;
+    font-size: 20px;
+    margin: 1vw 0; 
+}
+#part5 input{
+    width: 18vw;
+    height: 2.5vw;
+    border-radius:.5vw;
+    margin-bottom: 1vw;
+}
+#part5 button{
+    width: 9vw;
+    height: 3vw;
+    background-color: transparent;
+    font-size: 2vw;
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: gilroy;
+}
+@keyframes  move3 {
+    0%{
+        top: 100%;
+        opacity: 0;
+    }
+    100%{
+        top: 0%;
+    }
+}
+

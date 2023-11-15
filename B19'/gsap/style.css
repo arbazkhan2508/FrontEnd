@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;   
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+#main #nav{
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5vw;
+    /* background-color:red; */
+    position: absolute;
+    z-index: 4;
+}
+#main #nav>img{
+    height: 100%;
+
+}
+#main #nav>h1{
+    color: #000;
+    text-transform: uppercase;
+    font-family:"DELIRIUM NCV";
+    letter-spacing: 2px;
+    font-size: 3vw;
+    font-weight: 500;
+    /* margin-right: 3vw; */
+}
+#main>h1{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: 3;
+    opacity: .7;
+    text-transform: uppercase;
+    color: #000;
+    font-family: gilroy;
+}
+#main #icon{
+    width: 2%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: .5vw;
+    flex-direction: column;
+    position: absolute;
+    top:75%;
+    z-index: 4;
+    left: 3%;
+    transform: translate(-50%,-50%);
+    transform: rotate(-180deg);
+}
+#main #icon #i1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background-color: #000;
+    transform: rotate(-90deg);
+}
+#main #icon #i1>i{
+    color: #fff;
+    font-size: 1.1vw;
+}
+#main #icon #i2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background-color: grey;
+    transform: rotate(-90deg);
+}
+#main #icon #i2>i{
+    color: #000;
+    font-size: 1.1vw;
+}
+#main #icon>h3{
+    color: #000;
+    font-size: 1.2vw;
+    transform: rotate(90deg);
+    margin-top: 2vw;
+    margin-left: .5vw;
+    font-size: 1.5vw;
+    text-transform: capitalize;
+    font-family: gilroy;
+}
+#main>h2{
+    z-index: 3;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    color: #000;
+    text-transform:capitalize;
+    font-family: gilroy;
+    font-size: 3vw;
+    line-height: 1;
+}
+
+#main>p{
+    z-index: 3;
+    position: absolute;
+    top:50%;
+    left: 15%;
+    color: #000;
+    text-transform: capitalize;
+    font-family: gilroy;
+    font-size: 1vw;
+    font-weight: 300;
+    
+}
+#img{
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    object-fit: contain;
+    z-index: 2;
+  
+}
+#img>img{
+    width: 100%;
+    height: 100%;
+    background-position:center;
+}
+#bottom{
+    display: flex;
+    align-items: flex-end;
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    right: 0;
+}
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2vw;
+}
+.row #text>h1{
+    text-transform: uppercase;
+    font-family: gilroy;
+    color: #000;
+}
+.row #text>p{
+    text-transform: uppercase;
+    font-family: gilroy;
+    color: #000;
+}
+.row #photo{
+    width: 3vw;
+    height: 3vw;
+    background-color: red;
+    border-radius: 50%;
+    background-image: url(https://images.unsplash.com/photo-1496938884040-e0456a8512ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjIwfHxtaW5pbWFsJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#bone>p{
+    width: 70%;
+    text-align: center;
+}
+#bone button{
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+    margin-top: 2vw
+}
+#bottom #bone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60%;
+    background-color: rgba(255, 77, 12, 0.705);
+    background-color: orangered;
+    background-color: transparent;
+}
+#bottom #btwo{
+    padding: 1vw;
+    width: 50%;
+    height: 90%;
+    background-color:rgba(25, 24, 24, 0.793);
+    background-color: #000;
+    background-color: transparent;
+}

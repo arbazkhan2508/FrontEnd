@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    
+}
+#main1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(42, 35, 35);
+}
+#card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height:60%;
+    background-color: white;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow-y: auto;
+   
+}
+#card::-webkit-scrollbar{
+    display: none;
+}
+#top1{
+    height: 42px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.752);
+    
+}
+#top1>h1{
+    font-weight: 500;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-bottom: 30px;
+    position: fixed;
+}
+#side{
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 10px;
+    font-size: 25px;
+}
+#mess{
+    margin-left: 10px;
+}
+
+
+#stories{
+    width: 100%;
+    height: 20%;
+    overflow-x: auto;
+    padding: 5px;
+    
+    
+}
+
+#stories::-webkit-scrollbar{
+    display: none;
+}
+
+#circle{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid rgba(242, 62, 62, 0.788);
+    margin-left: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+#circle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#over{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-color: blue;
+    display: none;
+    background-size: cover;
+    background-position: center;
+
+}
+#pro{
+    width: 100%;
+    height: 2px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.208);
+}
+#grow{
+    width: 0%;
+    height: 2px;
+    background-color: white;
+}
+#top{
+    display: flex;
+    padding: 5px;
+}
+
+#profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 10px;
+    
+
+}
+#top>h1{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+#mainphoto{
+    height: 250px;
+    width: 100%;
+    background-color: red;
+    
+}
+#mainprofile{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#down{
+    padding: 5px;
+}
+#down>i{
+    font-size: 25px;
+}

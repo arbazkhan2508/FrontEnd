@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+.l{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+}
+h1{
+    font-size: 10vw;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transform: translateX(50%);
+    mix-blend-mode:difference;
+}
+.r{
+    width: 50%;
+    height: 100%;
+    background-color: #000;
+}
